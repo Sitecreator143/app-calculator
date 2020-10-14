@@ -1,2 +1,3 @@
 # app-calculator
-init: start app
+See app:  
+https://sitecreator143.github.io/app-calculator
