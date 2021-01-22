@@ -1,8 +1,9 @@
 # App calculator
   
+Используемые технологии:  
 HTML  
 CSS  
 JavaScript  
   
-See app:  
+Посмотреть работу приложения:  
 https://sitecreator143.github.io/app-calculator
