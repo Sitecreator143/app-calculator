@@ -1,4 +1,4 @@
-# app-calculator
+# App calculator
   
 HTML  
 CSS  
