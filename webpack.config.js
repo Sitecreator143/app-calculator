@@ -69,7 +69,7 @@ module.exports = {
   plugins: [
     //HTML
     new HtmlWebpackPlugin({
-      template: "./src/pug/page/index.pug",
+      template: "./src/index.pug",
       filename: "index.html",
       minify: isProduction
     }),
