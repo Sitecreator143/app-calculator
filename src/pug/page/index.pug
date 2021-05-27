@@ -1,0 +1,41 @@
+doctype html
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="x-ua-compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0, shrink-to-fit=no")
+    meta(name="format-detection" content="telephone=no")
+    title App calculator
+    link(href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap", rel="stylesheet")
+    <!--[if lt IE 9]>
+        script(src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js")
+    <![endif]-->
+
+  body
+    .calc__description Для вычисления корня нужно ввести число. Далее кнопка корня. Далее число, являющееся степенью корня. Далее знак равно или другой знак.
+    .calc-wrap
+      .output
+        .current-operand(data-current-operand)
+      
+      button(data-all-clear) AC
+      button(data-delete) C
+      button(data-operation) ^
+      button(data-operation) ÷
+      button(data-number) 1
+      button(data-number) 2
+      button(data-number) 3
+      button(data-operation) *
+      button(data-number) 4
+      button(data-number) 5
+      button(data-number) 6
+      button(data-operation) +
+      button(data-number) 7
+      button(data-number) 8
+      button(data-number) 9
+      button(data-operation) -
+      button(data-decimal) .
+      button(data-number) 0
+      button(data-operation) &radic;
+      button(data-operation) =
+      p
+        h1.calc_title Simple calculator by Alexander Nikolaev

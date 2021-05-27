@@ -1,9 +1,10 @@
 # App calculator
   
 Используемые технологии:  
-HTML  
-CSS  
+Webpack  
+HTML(Pug)  
+CSS(SCSS)  
 JavaScript  
   
 Посмотреть работу приложения:  
-https://sitecreator143.github.io/app-calculator
+https://sitecreator143.github.io/app-calculator/dist  
